@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2 Task 1 & Task 2 </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Task 1 -->
+    <!-- <div class="d-flex flex-column align-items-center py-4 mt-5">
+        <input type="number" class="form-control w-25" placeholder="the student grade" id="grade">
+        <button class="btn bg-success w-10 m-4 text-white" onclick="checkGrade()">Check Grade</button>
+         <h4 id="result" class="m-2"></h4>
+    </div> -->
+
+    <!-- Task2 -->
+
+    <!-- 
+       ## Bonus: Difference Between `onclick` and `addEventListener()`
+
+       `onclick` attaches a single click event directly in the HTML element or through JavaScript.
+        If another `onclick` is assigned, it replaces the previous one.
+
+       `addEventListener()` attaches events using JavaScript only 
+        and allows multiple event listeners to be added to the same element without overwriting existing ones.
+        It also keeps the HTML and JavaScript separated, making the code cleaner, easier to maintain, 
+        and the preferred approach in modern JavaScript.
+    -->
+    <div class="d-flex flex-column align-items-center py-4 mt-5 ">
+        <input type="text" class="form-control w-25 m-2" placeholder="student Name" id="stdName">
+        <input type="number" class="form-control w-25 m-2" placeholder="student Age" id="stdAge">
+        <input type="number" class="form-control w-25 m-2" placeholder="student grade" id="stdGrade">
+        <button class="btn bg-success w-10 m-4 text-white">Show Result</button>
+        <h4 id="result" class="m-2 text-center rounded-2 p-2"></h4>
+    </div>
+
+    <script src="js/task.js"></script>
+</body>
+
+</html>
