@@ -28,6 +28,8 @@ var grade = document.getElementById("stdGrade");
 var stdName = document.getElementById("stdName");
 var age = document.getElementById("stdAge");
 var result = document.getElementById("result");
+var btn = document.getElementById("btn");
+
 function checkGrade() {
      if (grade.value <= 100 && grade.value >= 90) {
           result.innerHTML = `student's Name : ${stdName.value} <br> student's Age : ${age.value} <br> student's Grade : ${grade.value}  <br> student's Status : Excellent ⭐⭐⭐`;
@@ -59,4 +61,4 @@ function checkGrade() {
 }
 
 
-result.addEventListener('click',checkGrade);
+btn.addEventListener('click',checkGrade);
